@@ -2,10 +2,12 @@ package th.ac.su.homework3.model;
 
 public class WordItem {
     public final int imageResId;
-    public final String word;
+    public final String wordEng;
+    public final String wordTh;
 
-    public WordItem(int imageResId, String word) {
+    public WordItem(int imageResId, String wordEng,String wordTh) {
         this.imageResId = imageResId;
-        this.word = word;
+        this.wordEng = wordEng;
+        this.wordTh = wordTh;
     }
 }
