@@ -1,4 +1,4 @@
-package th.ac.su.homework3;
+package th.ac.su.homework3.model;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import th.ac.su.homework3.model.WordItem;
+import th.ac.su.homework3.R;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
     WordItem[] items = {
@@ -27,9 +27,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
 
     };
 
-    MyAdapter(){
 
-    }
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

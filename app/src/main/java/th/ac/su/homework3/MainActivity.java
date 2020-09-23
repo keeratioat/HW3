@@ -1,18 +1,12 @@
 package th.ac.su.homework3;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
 
-import th.ac.su.homework3.model.WordItem;
+import th.ac.su.homework3.model.MyAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
